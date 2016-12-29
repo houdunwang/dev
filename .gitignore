@@ -4,3 +4,48 @@
 composer.lock
 /attachment
 storage/
+Would skip repository vendor/houdunwang/alipay
+Would skip repository vendor/houdunwang/arr
+Would skip repository vendor/houdunwang/backup
+Would skip repository vendor/houdunwang/cache
+Would skip repository vendor/houdunwang/cart
+Would skip repository vendor/houdunwang/cli
+Would skip repository vendor/houdunwang/code
+Would skip repository vendor/houdunwang/collection
+Would skip repository vendor/houdunwang/config
+Would skip repository vendor/houdunwang/container
+Would skip repository vendor/houdunwang/controller
+Would skip repository vendor/houdunwang/cookie
+Would skip repository vendor/houdunwang/crypt
+Would skip repository vendor/houdunwang/curl
+Would skip repository vendor/houdunwang/database
+Would skip repository vendor/houdunwang/db
+Would skip repository vendor/houdunwang/dir
+Would skip repository vendor/houdunwang/error
+Would skip repository vendor/houdunwang/file
+Would skip repository vendor/houdunwang/framework
+Would skip repository vendor/houdunwang/html
+Would skip repository vendor/houdunwang/image
+Would skip repository vendor/houdunwang/lang
+Would skip repository vendor/houdunwang/loader
+Would skip repository vendor/houdunwang/log
+Would skip repository vendor/houdunwang/mail
+Would skip repository vendor/houdunwang/middleware
+Would skip repository vendor/houdunwang/model
+Would skip repository vendor/houdunwang/page
+Would skip repository vendor/houdunwang/qq
+Would skip repository vendor/houdunwang/rbac
+Would skip repository vendor/houdunwang/request
+Would skip repository vendor/houdunwang/response
+Would skip repository vendor/houdunwang/route
+Would skip repository vendor/houdunwang/session
+Would skip repository vendor/houdunwang/str
+Would skip repository vendor/houdunwang/tool
+Would skip repository vendor/houdunwang/validate
+Would skip repository vendor/houdunwang/view
+Would skip repository vendor/houdunwang/weixin
+Would skip repository vendor/houdunwang/xml
+Would skip repository vendor/houdunwang/zip
+vendor/autoload.php
+vendor/bin
+vendor/composer

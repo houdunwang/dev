@@ -3,26 +3,26 @@ return [
 	/**
 	 * 模板目录
 	 */
-	'path'         => 'view',
+	'path'        => 'view',
 
 	//模板后缀
-	'prefix'       => '.php',
+	'prefix'      => '.php',
 
 	//标签
-	'tags'         => [ ],
+	'tags'        => [ ],
 
 	//左标签
-	'tag_left'     => '<',
+	'tag_left'    => '<',
 
 	//右标签
-	'tag_right'    => '>',
+	'tag_right'   => '>',
 
-	//blade 模板功能开关
-	'blade'        => true,
+	//Blade模板标签开关
+	'blade'       => true,
 
 	//缓存目录
-	'cache_dir'    => ROOT_PATH . '/storage/view/cache',
+	'cache_dir'   => ROOT_PATH . '/storage/view/cache',
 
 	//编译目录
-	'compile_dir'  => ROOT_PATH . '/storage/view/compile',
+	'compile_dir' => ROOT_PATH . '/storage/view/compile',
 ];
