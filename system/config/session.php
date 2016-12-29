@@ -3,18 +3,18 @@ return [
 	//引擎:file,mysql,memcache,redis
 	'driver'   => 'file',
 	//session_name
-	'name'     => 'hdcmsid',
+	'name'     => 'HDPHPID',
 	//域名
 	'domain'   => '',
 	//过期时间
 	'expire'   => 0,
 	#File
 	'file'     => [
-		'path' => 'storage/session',
+		'path' => ROOT_PATH . '/storage/session',
 	],
 	#Mysql
 	'mysql'    => [
-		'table' => 'core_session',
+		'table' => 'session',
 	],
 	#Memcache
 	'memcache' => [

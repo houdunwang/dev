@@ -3,7 +3,7 @@ return [
 	//读库列表
 	'read'     => [ ],
 	//写库列表
-	'write'    => [ ],
+	'write'    => [ ], 
 	//开启读写分离
 	'proxy'    => FALSE,
 	//主机

@@ -11,7 +11,7 @@ return [
 	 * 文件缓存
 	 */
 	'file'     => [
-		'dir' => 'storage/cache'
+		'dir' => ROOT_PATH . '/storage/cache'
 	],
 	/**
 	 * memcache缓存

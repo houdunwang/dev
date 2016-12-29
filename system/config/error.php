@@ -1,7 +1,7 @@
 <?php
 return [
 	//应用错误处理
-	'app'   => [
+	'app'         => [
 		/**
 		 * 验证错误显示类型
 		 * redirect 直接跳转,会分配$errors到前台
@@ -10,11 +10,12 @@ return [
 		 */
 		'validate' => 'show',
 	],
-
+	//Notice类型错误显示
+	'show_notice' => false,
 	//开启Trace
-	'trace' => TRUE,
+	'trace'       => true,
 	//Trace选项卡
-	'level' => [
+	'level'       => [
 		'view'  => '视图',
 		'sql'   => 'sql语句',
 		'file'  => '加载文件',
