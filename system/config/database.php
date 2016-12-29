@@ -1,21 +1,23 @@
 <?php
 return [
+	//表字段缓存目录
+	'cache_dir'   => ROOT_PATH.'/storage/field',
 	//读库列表
-	'read'     => [ ],
+	'read'        => [ ],
 	//写库列表
-	'write'    => [ ], 
+	'write'       => [ ],
 	//开启读写分离
-	'proxy'    => FALSE,
+	'proxy'       => false,
 	//主机
-	'host'     => 'localhost',
+	'host'        => 'localhost',
 	//类型
-	'driver'   => 'mysql',
+	'driver'      => 'mysql',
 	//帐号
-	'user'     => 'root',
+	'user'        => 'root',
 	//密码
-	'password' => '',
+	'password'    => '',
 	//数据库
-	'database' => '',
+	'database'    => '',
 	//表前缀
-	'prefix'   => 'hd_'
+	'prefix'      => 'hd_'
 ];

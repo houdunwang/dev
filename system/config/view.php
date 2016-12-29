@@ -1,23 +1,28 @@
 <?php
 return [
-	//模板目录（只对路由调用有效）
-	'path'      => 'view',
+	/**
+	 * 模板目录
+	 */
+	'path'         => 'view',
+
 	//模板后缀
-	'prefix'    => '.php',
+	'prefix'       => '.php',
+
 	//标签
-	'tags'      => [ ],
-	//消息模板
-	'message'   => ROOT_PATH . '/resource/view/message.php',
-	//有确定提示的模板页面
-	'confirm'   => ROOT_PATH . '/resource/view/confirm.php',
-	//404页面
-	'404'       => ROOT_PATH . '/resource/view/404.php',
-	//错误提示页面
-	'bug'       => ROOT_PATH . '/resource/view/bug.php',
+	'tags'         => [ ],
+
 	//左标签
-	'tag_left'  => '<',
+	'tag_left'     => '<',
+
 	//右标签
-	'tag_right' => '>',
+	'tag_right'    => '>',
+
 	//blade 模板功能开关
-	'blade'     => TRUE
+	'blade'        => true,
+
+	//缓存目录
+	'cache_dir'    => ROOT_PATH . '/storage/view/cache',
+
+	//编译目录
+	'compile_dir'  => ROOT_PATH . '/storage/view/compile',
 ];
