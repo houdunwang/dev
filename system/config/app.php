@@ -10,12 +10,6 @@ return [
 	'charset'            => 'utf-8',
 	//时区
 	'timezone'           => 'PRC',
-	//自动加载文件
-	'auto_load_file'     => [ ],
-	//注册命名空间
-	'autoload_namespace' => [ ],
-	//类别名
-	'alias'              => [ ],
 	//消息模板
 	'message'            => ROOT_PATH . '/resource/view/message.php',
 	//有确定提示的模板页面
