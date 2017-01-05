@@ -1,9 +1,13 @@
 <?php namespace app\home\controller;
 
+use system\model\News;
+
 class Entry {
 	public function index() {
-		dd(q('cid'));
-		echo u('Home.Index.add');
+
+	}
+	public function post(News $m){
+		dd($m);
 		return view();
 	}
 }
