@@ -4,10 +4,7 @@ use system\model\News;
 
 class Entry {
 	public function index() {
-
-	}
-	public function post(News $m){
-		dd($m);
-		return view();
+		dd(Schema::tableExists( 'migrations' ));
+		dd(Db::getQueryLog());
 	}
 }

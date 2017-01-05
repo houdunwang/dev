@@ -6,18 +6,20 @@ return [
 	'read'        => [ ],
 	//写库列表
 	'write'       => [ ],
-	//开启读写分离
-	'proxy'       => false,
+	/**
+	 * 以下为基本配置段
+	 * 当read与write段为空时,使用以下配置项设置read与write段
+	 */
 	//主机
-	'host'        => 'localhost',
+	'host'        => '127.0.0.1',
 	//类型
 	'driver'      => 'mysql',
 	//帐号
 	'user'        => 'root',
 	//密码
-	'password'    => '',
+	'password'    => 'admin888',
 	//数据库
-	'database'    => '',
+	'database'    => 'hdphp3',
 	//表前缀
 	'prefix'      => 'hd_'
 ];
