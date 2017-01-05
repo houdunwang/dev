@@ -1,22 +1,11 @@
-<?php
-/** .-------------------------------------------------------------------
-* |  Software: [HDPHP framework]
-* |      Site: www.hdphp.com
-* |-------------------------------------------------------------------
-* |    Author: 向军 <2300071698@qq.com>
-* |    WeChat: aihoudun
-* | Copyright (c) 2012-2019, www.houdunwang.com. All Rights Reserved.
-* '-------------------------------------------------------------------*/
-
-namespace system\model;
-
-
-class News{
+<?php namespace system\model;
+use houdunwang\model\Model;
+class News extends Model{
 	//数据表
 	protected $table = "news";
 
 	//允许填充字段
-	protected $allowFill = [ ];
+	protected $allowFill = ['*'];
 
 	//禁止填充字段
 	protected $denyFill = [ ];
@@ -24,11 +13,14 @@ class News{
 	//自动验证
 	protected $validate=[
 		//['字段名','验证方法','提示信息',验证条件,验证时间]
+//		['title','/^\d+$/','年龄必须是数字',self::MUST_VALIDATE,self::MODEL_BOTH],
+//		['title','/^\d+$/','aaa',self::MUST_VALIDATE,self::MODEL_BOTH]
 	];
 
 	//自动完成
 	protected $auto=[
 		//['字段名','处理方法','方法类型',验证条件,验证时机]
+		[ 'click', 998899, 'string',  self::MUST_AUTO,  self::MODEL_BOTH ]
 	];
 
 	//自动过滤
@@ -37,9 +29,5 @@ class News{
     ];
 
 	//时间操作,需要表中存在created_at,updated_at字段
-	protected $timestamps=false;
-
-	public function show(Demo $m){
-		$m->show();
-	}
+	protected $timestamps=true;
 }
