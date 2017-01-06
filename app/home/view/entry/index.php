@@ -9,5 +9,6 @@
 <h1 class="text-muted text-center" style="margin-top:200px;font-size:80px;">HDPHP 3 </h1>
 <h4 class="text-muted text-center">服务化/组件化/模块化的未来框架产品</h4>
 <h6 class="text-muted text-center">hdphp: {{HDPHP_VERSION}} framework: {{FRAMEWORK_VERSION}}</h6>
+<?php echo time();?>
 </body>
 </html>
