@@ -8,10 +8,6 @@
 	<title>Document</title>
 </head>
 <body>
-<form action="" method="post">
-	<input type="text" name="title">{{csrf_token()}}
-	{{ csrf_field() }}
-	<input type="submit">
-</form>
+<line/>
 </body>
 </html>

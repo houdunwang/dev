@@ -5,8 +5,10 @@ use system\model\News;
 
 class Entry {
 	public function index( News $m ) {
-		$m['title'] = 'abc';
-		$d          = $m->save();
-		dd( $d );
+		return view();
+	}
+	public function post( News $m ) {
+		View::with(['a'=>3]);
+		return view();
 	}
 }

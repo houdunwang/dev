@@ -63,5 +63,5 @@ return [
 	|
 	| 请求页面不存或执行_404()函数时调用的视图模板
 	*/
-	'404'      => ROOT_PATH . '/resource/view/404.php',
+	'404'      => ROOT_PATH . '/resource/view/404.php'
 ];
